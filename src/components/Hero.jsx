@@ -72,7 +72,7 @@ const Hero = () => {
  
  return (
 	<>
-	 <section id="hero" className="noisy relative" >
+	 <section id="hero"  >
 	 {/* <section id="hero" > */}
 		<h1 className="title">Splake </h1>
 		 
