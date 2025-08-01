@@ -37,11 +37,19 @@ body {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 
-@utility text-gradient {
+/* @utility text-gradient {
     background: linear-gradient(to bottom, #ffffff, #898989);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+} */
+@utility text-gradient {
+    background: radial-gradient(circle, #88ff00 , #270240);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 @utility radial-gradient {
@@ -86,7 +94,8 @@ body {
     }
 
     .noisy {
-        @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+        @apply absolute inset-0 size-full opacity-80 bg-[url("/images/noise.png")];
+         /* @apply absolute inset-0 size-full opacity-80 bg-[url("/images/bricks.png")]; */
     }
 
     #hero {
