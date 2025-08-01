@@ -74,7 +74,7 @@ const Hero = () => {
 	<>
 	 <section id="hero" className="noisy relative" >
 	 {/* <section id="hero" > */}
-		<h1 className="title">Splashake </h1>
+		<h1 className="title">Splake </h1>
 		 
 		<img
 		 src="/images/hero-left-leaf.png"
